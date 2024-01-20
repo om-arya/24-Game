@@ -13,8 +13,8 @@ public class WebConfig {
     public CorsFilter corsFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration config = new CorsConfiguration();
-        config.addAllowedOrigin("http://localhost:3000");
-        config.addAllowedOrigin("http://localhost:3000/play");
+        config.addAllowedOrigin("https://two4-game-react.onrender.com");
+        config.addAllowedOrigin("https://two4-game-react.onrender.com/play");
         config.addAllowedMethod("*");
         config.addAllowedHeader("*");
         source.registerCorsConfiguration("/**", config);
