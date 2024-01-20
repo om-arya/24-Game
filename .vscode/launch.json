@@ -4,7 +4,7 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
+            "name": "Launch Chrome against Vercel",
             "url": "https://24-game.vercel.app/play",
             "webRoot": "${workspaceFolder}"
         }
