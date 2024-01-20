@@ -30,7 +30,7 @@ function Play() {
      */
     const fetchNextCard = async () => {
         try {
-            const response = await axios.get('http://localhost:8080/getNextCard', null);
+            const response = await axios.get('https://two4-game-react.onrender.com/getNextCard', null);
             const { difficulty, top, right, bottom, left } = response.data;
     
             setCardData({
@@ -53,7 +53,7 @@ function Play() {
      */
     const createNewDeck = async (hasEasy, hasMedium, hasHard) => {
         try {
-          await axios.post('http://localhost:8080/createNewDeck', null, {
+          await axios.post('https://two4-game-react.onrender.com/createNewDeck', null, {
             params: {
                 hasEasy: hasEasy,
                 hasMedium: hasMedium,
