@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.http.*;
 
-@CrossOrigin(origins = "http://localhost:3000/play")
+@CrossOrigin(origins = "https://two4-game-react.onrender.com/play")
 @Controller
 public class GameController {
     private DeckInitializer deckInitializer = new DeckInitializer();
