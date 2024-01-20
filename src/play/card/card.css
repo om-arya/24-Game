@@ -1,0 +1,110 @@
+.card-container {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+#card-img {
+  position: relative;
+  z-index: 0;
+
+  width: 53%;
+  height: auto;
+  margin-top: .55%;
+}
+
+.sector-highlight {
+  position: absolute;
+  z-index: 1;
+
+  width: 52%;
+  height: auto;
+}
+
+.sector-highlight.top {
+  top: 2.2%;
+  right: 24%;
+}
+
+.sector-highlight.right {
+  transform: rotate(90deg);
+  top: 2.18%;
+  right: 24.05%;
+}
+
+.sector-highlight.bottom {
+  transform: rotate(180deg);
+  top: 1.75%;
+  right: 24.2%;
+}
+
+.sector-highlight.left {
+  transform: rotate(270deg);
+  top: 1.78%;
+  right: 24.21%;
+}
+
+.card-number {
+  position: absolute;
+  z-index: 2;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-number.single-digit {
+  font-size: 1200%;
+
+  --top-pos: calc(-15% + var(--height-offset));
+  --bottom-pos: calc(-10.5% - var(--height-offset));
+  --side-top-pos: calc(11% + var(--height-offset));
+  --left-pos: 33%;
+  --right-pos: 33%;
+}
+
+.card-number.single-digit.highpos-number {
+  --height-offset: 2.2%;
+}
+
+.card-number.single-digit.midpos-number {
+  font-size: 1300%;
+  
+  --height-offset: -3.4%;
+  --bottom-pos: -13.5%;
+}
+
+.card-number.single-digit.lowpos-number {
+  --height-offset: -1.5%;
+}
+
+.card-number.double-digit {
+  font-size: 1000%;
+  letter-spacing: -.05em;
+
+  --top-pos: -9%;
+  --bottom-pos: -5.5%;
+  --side-top-pos: 17%;
+  --left-pos: 32%;
+  --right-pos: 32%;
+}
+
+#top {
+  top: var(--top-pos);
+}
+
+#right {
+  top: var(--side-top-pos);
+  right: var(--right-pos);
+}
+
+#bottom {
+  bottom: var(--bottom-pos);
+}
+
+#left {
+  top: var(--side-top-pos);
+  left: var(--left-pos);
+}

@@ -1,0 +1,68 @@
+.math-button {
+    position: absolute;
+
+    width: 8%;
+    height: auto;
+}
+
+#expression {
+    position: absolute;
+    
+    top: 7.2%;
+    right: 5%;
+    margin-left: 76.2%;
+    margin-right: 0%;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.5em;
+}
+
+#expression-result {
+    position: absolute;
+
+    top: -6%;
+    right: 11%;
+    margin-left: 77%;
+    margin-right: 0%;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4.5em;
+    font-weight: bold;
+}
+
+#plus-button {
+    top: 38%;
+    right: 14%;
+}
+
+#minus-button {
+    top: 38%;
+    right: 5%;
+}
+
+#multiply-button {
+    z-index: 1;
+    
+    top: 53%;
+    right: 14%;
+}
+
+#divide-button {
+    top: 53%;
+    right: 5%;
+}
+
+#parentheses-button {
+    z-index: 0;
+    
+    top: 67%;
+    right: 13.5%;
+
+    width: 9%;
+    height: auto;
+}
+
+#clear-button {
+    top: 68%;
+    right: 5%;
+}

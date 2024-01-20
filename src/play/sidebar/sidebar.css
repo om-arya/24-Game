@@ -1,0 +1,65 @@
+.sidebar-container {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+
+    border-radius: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+    margin-left: 1.5%;
+    margin-right: 77%;
+    margin-bottom: 10%;
+
+    background-color: whitesmoke;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#score {
+    margin-bottom: 20%;
+    font-size: 220%;
+}
+
+#score span {
+    color: green;
+}
+
+.sidebar-container hr {
+    border: .5px solid black;
+    margin-bottom: 20%;
+}
+
+#difficulties-text {
+    margin-bottom: 15%;
+    font-size: 150%;
+    font-weight: bold;
+}g
+
+.difficulty-checkbox-container {
+    margin-bottom: 15%;
+    margin-left: 20%;
+}
+
+.difficulty-checkbox {
+    transform: scale(1.5);
+}
+
+.checkbox-text {
+    margin-left: 3%;
+    font-size: 1.3em;
+}
+
+#easy-checkbox {
+    accent-color: rgb(241, 241, 238);
+    margin-bottom: 15%;
+}
+
+#medium-checkbox {
+    accent-color: rgb(219, 2, 68);
+    margin-bottom: 15%;
+}
+
+#hard-checkbox {
+    accent-color: rgb(255, 196, 0);
+}

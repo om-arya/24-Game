@@ -1,0 +1,54 @@
+.about {
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+    background-color: rgb(247, 245, 243);
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.about hr {
+    border: .5px solid black;
+}
+
+#about-title {
+    margin-top: 0%;
+    margin-bottom: 1%;
+    padding-top: 1%;
+
+    font-size: 2em;
+    text-align: center;
+}
+
+#contact-me {
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.info-header {
+    margin-top: .2%;
+    margin-bottom: .6%;
+    
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.info-text {
+    margin-top: 0%;
+    margin-bottom: 2.5%;
+
+    font-size: 1.1em;
+}
+
+#tips-header {
+    margin-bottom: -.6%;
+}
+
+#tips-text {
+    padding-bottom: 2%;
+}
