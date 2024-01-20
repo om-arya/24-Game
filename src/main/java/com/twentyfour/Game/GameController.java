@@ -8,11 +8,6 @@ import org.springframework.http.*;
 public class GameController {
     private DeckInitializer deckInitializer = new DeckInitializer();
     private Card[] deck = deckInitializer.initializeDeck(true, true, true);
-
-    @RequestMapping(value = "/createNewDeck", method = RequestMethod.OPTIONS)
-    public ResponseEntity<Void> handleOptions() {
-        return ResponseEntity.ok().build();
-    }
     
     /**
      * Fetch the next card; invoked upon client launch and after solving a card.
