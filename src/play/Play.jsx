@@ -30,7 +30,7 @@ function Play() {
      */
     const fetchNextCard = async () => {
         try {
-            const response = await axios.get('https://two4-game-react.onrender.com/play/getNextCard', null);
+            const response = await axios.get('https://24-game.vercel.app/getNextCard', null);
             const { difficulty, top, right, bottom, left } = response.data;
     
             setCardData({
@@ -53,7 +53,7 @@ function Play() {
      */
     const createNewDeck = async (hasEasy, hasMedium, hasHard) => {
         try {
-          await axios.post('https://two4-game-react.onrender.com/play/createNewDeck', null, {
+          await axios.post('https://24-game.vercel.app/createNewDeck', null, {
             params: {
                 hasEasy: hasEasy,
                 hasMedium: hasMedium,
